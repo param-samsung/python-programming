@@ -1,0 +1,9 @@
+d = {'dep1': {'BEC002' :50000, 'BEC012' : 30000, 'BEC020' :6000}, 'dep3':{'BEC003' :15000, 'BEC015' :3000,'BEC010' : 65000}, 'dep5':{'BEC007' :18000, 'BEC019' :38000, 'BEC011' : 25000}}
+salary=[]
+for i in d:
+    for j in d[i]:
+        salary.append(d[i][j])
+        salary.sort()
+    print(f" {i}: max {salary[-1]}, min {salary[0]}")
+    salary=[]
+        
