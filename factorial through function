@@ -1,0 +1,10 @@
+def factorial(n):
+    a = 1
+    for i in range(2,n+1):
+        a = a*i
+    return a
+b = int(input("enter the number for factorial"))
+factorial(b)
+print("factorial of a number")
+print(factorial(b))
+        
