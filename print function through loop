@@ -1,0 +1,10 @@
+def fun():
+    print("hello")
+def disp():
+    print("hii")
+def msg():
+    print("dfgsd")
+lst = [fun,disp,msg]
+for i in lst:
+    i()
+    
