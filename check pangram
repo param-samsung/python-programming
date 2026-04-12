@@ -1,0 +1,11 @@
+def ispangram(s):
+    if {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'} <= s:
+        return True
+    else:
+        return False   
+b = input("enter the string: ")
+a = set(b.lower())
+c = ispangram(a)
+print(c)
+
+    
